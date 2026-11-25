@@ -1,0 +1,15 @@
+# Ambiente virtual e caches do Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Credenciais: nunca vão para o Git
+.env
+
+# Arquivos de build
+build/
+dist/
+*.egg-info/
